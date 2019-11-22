@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  margin-top:0px;
+}
+
+.App-header {
+  background-color: #e7e7d1;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  
+}
+
+header .community_list{
+  display:flex;
+  flex-direction: column;
+  height:30px;
+  font-size:1.2em;
+}
+
+header .community_list .list{
+  margin:10vh auto;
+  text-align: center;
+}
+
+header .community_list .list a{
+  padding-left:10px;
+  color:blue;
+  font-weight: bold;
+  font-size:1.3em;
+}
+/*************************************************************/
+/*  main content */
+/*************************************************************/
+
+main .content{
+  width:100%;
+  height:100%;
+  margin-top:100px;
+  padding-left: 20px;
+  
+}
+
+main .content .detail{
+  display:flex;
+  flex-direction: row;
+  margin:10px;
+  justify-content: center;
+}
+
+main .content .detail img{
+  margin-top: 130px;
+  width:768px;
+  height:350px;
+}
+/*************************************************************/
+/*  footer menu */
+/*************************************************************/
+
+footer .contact{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width:100%;
+  height:100%;
+  position: relative;
+}
+
+footer .contact .contact_info{
+  color:black;
+}
+
+footer .contact a{
+  text-decoration: none;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+/*************************************************************/
+/*  houses html */
+/*************************************************************/
+
+.houses_header{
+  text-align: center;
+  margin-top: 20px;
+  font-size:1.5em;
+}
+
+.houses_header .hightlight_community{
+  color:red;
+  font-weight: bold;
+}
+
+main .house_type{
+  margin:0 20px;
+}
+
+main .house_type .line{
+  width:100%;
+  border:solid 2px black;
+  margin:20px 0;
+}
+
+main .house_type .houses{
+  display:flex;
+  flex-direction: row;
+  padding:10px;
+}
+
